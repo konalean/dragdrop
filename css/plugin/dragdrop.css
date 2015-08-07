@@ -1,0 +1,30 @@
+/* drag drop css */
+.dest_on {
+	border-style: solid;
+	border-color: #98bf21;
+	border-width:1px;
+}
+
+.dragdrop_element {
+	cursor:pointer;
+	border-style: solid;
+	border-color: #98bf21;
+	border-width:1px;
+	position:absolute;
+	z-index:9999; 
+	background: #e4eef2;
+}
+
+.dragdrop_selected_element {
+	border-width:1px;
+	border-style: solid;
+	border-color: #98bf21;
+	background: #e4eef2;
+	padding: 15px;
+	margin-left:10px;
+	margin-top: 10px;
+	font-size:17px;
+	width:100%;
+	float:left;
+	
+}

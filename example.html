@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>example</title>
+<meta charset="utf-8">
+<link href="css/example.css" rel="stylesheet">
+<link href="css/plugin/dragdrop.css" rel="stylesheet">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/plugin/dragdrop.js"></script>
+<script language="javascript">
+$(function() {
+	$('#from > div').dragdrop({
+		destTarget: $('#dest')
+	});
+});
+</script>
+</head>
+<body>
+	<div class="left_block" id="from">
+		<div class="div_style">a</div>
+		<div class="div_style">b</div>
+		<div class="div_style">c</div>
+	</div>
+	<div class="dest_block" id="dest">
+		
+	</div>
+</body>
+</html>
